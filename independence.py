@@ -4,7 +4,7 @@ from rules import AND, EQUIVALENT, IMPLIES, NOT, OR
 combinations = itertools.product('012', repeat=9)
 
 x = ('0', '0', '0', '1', '1', '1', '2', '2', '2')
-y = (0, 1, 2, 0, 1, 2, 0, 1, 2)
+y = ('0', '1', '2', '0', '1', '2', '0', '1', '2')
 
 notCombinations = itertools.product('012', repeat=3)
 
