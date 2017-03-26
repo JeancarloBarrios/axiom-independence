@@ -108,3 +108,7 @@ def OR(a, b, list):
         elif a[i] =='2' and b[i] == '2':
             result.append(list[8])
     return result
+
+
+
+    
