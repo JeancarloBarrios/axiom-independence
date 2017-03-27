@@ -84,7 +84,7 @@ def AND(a, b, list):
         elif a[i] =='2' and b[i] == '2':
             result.append(list[8])
     return result
-'0'
+
 
 def OR(a, b, list):
     result = []
@@ -111,4 +111,9 @@ def OR(a, b, list):
 
 
 
+def checkTaut(a):
+    for i in range(0, 9, 1):
+        if a[i] != 1:
+            return False
+    return True
     
